@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      <a-mixin id="black" material="color: black"></a-mixin>
+      <a-mixin id="green" material="color: green"></a-mixin>
+      <a-mixin id="ball" geometry="primitive: sphere"></a-mixin>
+    </a-assets>
+    <a-entity mixin="black ball"></a-entity>
+    <a-entity mixin="green ball" position="1 0 0"></a-entity>
+  </a-scene>
+</body>
+</html>
