@@ -1,14 +1,28 @@
-//prime factors 
+//Javascript Unique part
+// test ="Subscribe "
+// console.log(test)
 
-function value (n){
+//Variable declaration 
 
-    if (n < 0){
+//Changed but no declared
+let student = "Joe"
+student ="Michael"
+//Cannot be changed 
+const teacher = "Elon "
 
-        return "";
-    }else{
-        console.log("" + n);
-        value(n-1);
-    }
-}
+//Changed & declared
+var company = "Tesla"
+var company ="Canonical"
 
-value(0)
+
+console.log(student)
+console.log(teacher)
+console.log(company)
+
+//===vs ==
+
+
+//=== strict 
+
+"5" == 5 //true
+"5" === 5 //false 
