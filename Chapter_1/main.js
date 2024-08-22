@@ -1,6 +1,6 @@
 //Javascript Unique part
-// test ="Subscribe "
-// console.log(test)
+test ="Subscribe "
+console.log(test)
 
 //Variable declaration 
 
@@ -26,3 +26,32 @@ console.log(company)
 
 "5" == 5 //true
 "5" === 5 //false 
+
+
+//Variables
+
+const is20 = true
+typeof is20; //boolean
+console.log(typeof is20)
+const age = 26
+typeof age //number
+console.log(typeof age)
+
+const name = "Javascript"
+typeof name; //string
+console.log(typeof name)
+
+const fruits = ["mango", "banana", "pineapple"]
+typeof fruits //object
+
+const me = {fisrtName:"mike", lastName:"bro"}
+typeof me //object
+
+const nullVar = null;
+typeof nullVar //object
+
+
+
+
+
+
